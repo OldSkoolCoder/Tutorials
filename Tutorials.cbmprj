@@ -45,8 +45,8 @@
         <FileName>08 - Tutorial Eight.asm</FileName>
         <FileName>Tutorial Nine.asm</FileName>
         <FileName>Tutorial Routines.asm</FileName>
-        <FileName>Tutorial Ten.asm</FileName>
-        <FileName>Tutorial Eleven.asm</FileName>
+        <FileName>10 - Tutorial Ten.asm</FileName>
+        <FileName>11 - Tutorial Eleven.asm</FileName>
         <FileName>12 - Tutorial Twelve.asm</FileName>
         <FileName>absolutny.asm</FileName>
         <FileName>Tutorial Twelve.asm</FileName>
@@ -57,6 +57,8 @@
         <FileName>Tutorial TwentyThree.asm</FileName>
         <FileName>20 - Tutorial Twenty.asm</FileName>
         <FileName>21 - Tutorial TwentyOne.asm</FileName>
+        <FileName>Tutorial Eleven.asm</FileName>
+        <FileName>Tutorial Ten.asm</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>0</PaddingByte>
@@ -119,6 +121,28 @@
         </SourceFile>
         <SourceFile>
             <Name>08 - Tutorial Eight.asm</Name>
+            <PrgName />
+            <FileType>2</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>False</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>10 - Tutorial Ten.asm</Name>
+            <PrgName />
+            <FileType>2</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>False</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>11 - Tutorial Eleven.asm</Name>
             <PrgName />
             <FileType>2</FileType>
             <IncludeInBuild>True</IncludeInBuild>
