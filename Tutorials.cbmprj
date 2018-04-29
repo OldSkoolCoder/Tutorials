@@ -62,6 +62,7 @@
         <FileName>22 - Tutorial TwentyTwo.asm</FileName>
         <FileName>23 - Tutorial TwentyThree.asm</FileName>
         <FileName>25 - Tutorial Twenty Five.asm</FileName>
+        <FileName>26 - Tutorial Twenty Six.asm</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>0</PaddingByte>
@@ -225,8 +226,8 @@
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>True</Topmost>
-            <FileOpen>True</FileOpen>
+            <Topmost>False</Topmost>
+            <FileOpen>False</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>25 - Tutorial Twenty Five.asm</Name>
@@ -238,6 +239,17 @@
             <Bookmarks />
             <Topmost>False</Topmost>
             <FileOpen>False</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>26 - Tutorial Twenty Six.asm</Name>
+            <PrgName />
+            <FileType>2</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>Character_ASCII_Const.asm</Name>
