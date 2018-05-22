@@ -63,6 +63,7 @@
         <FileName>23 - Tutorial TwentyThree.asm</FileName>
         <FileName>25 - Tutorial Twenty Five.asm</FileName>
         <FileName>26 - Tutorial Twenty Six.asm</FileName>
+        <FileName>28 - Tutorial Twenty Eight - Paranoid.asm</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>0</PaddingByte>
@@ -242,6 +243,17 @@
         </SourceFile>
         <SourceFile>
             <Name>26 - Tutorial Twenty Six.asm</Name>
+            <PrgName />
+            <FileType>2</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>False</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>28 - Tutorial Twenty Eight - Paranoid.asm</Name>
             <PrgName />
             <FileType>2</FileType>
             <IncludeInBuild>True</IncludeInBuild>
