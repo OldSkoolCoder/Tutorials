@@ -6,7 +6,10 @@
 ;* Date : 5th Jan, 2018                                                        *
 ;*                                                                             *
 ;*******************************************************************************
-;*                                                                             *
+;* Change History :                                                            *
+;* 20th May 2018 : Fixed the AddTwosCompliment Routine                         *
+;*               : Fixed the Random Generator as pointed out by EgonOlsen71    *
+;*               : Modified Code to EOR Pixel and not ORA to see effect        *
 ;*******************************************************************************
 
 ; 10 SYS (2064)
@@ -168,6 +171,12 @@ defm EvaluateNextDeltaNumber    ; Delta Variable
 
     jsr Rand
     and #%00000011          ; just give me the 2 least significant bits
+    cmp #3                  ; is the end result 3?
+    bne @NotThree           ; No, then continue normally
+    sec                     ; Yes, then subtract one from value
+    sbc #1
+    sta /1
+@NotThree
     sec
     sbc #1
     sta /1
@@ -219,7 +228,8 @@ defm AddTwosComplimentNumbers ; wrdSource, bytAddition, wrdTarget
     clc
 @JumpCLC
     lda #0
-    adc /1 + 1
+;   adc /1 + 1
+    adc #0          ; We dont have a hi Byte for a BYTE Parameter, so this is to 
     sta /3 + 1      ; Add the carry over to the HiByte of the wrdTarget
     endm
 
@@ -537,7 +547,8 @@ Line1010
 
     ldy #0
     lda (POINTADDRESS),y
-    ora Prog_XC
+;    ora Prog_XC
+    eor Prog_XC
     sta (POINTADDRESS),y
 
     rts
