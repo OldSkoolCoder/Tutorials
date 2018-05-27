@@ -169,14 +169,11 @@ defm EvaluateNextDeltaNumber    ; Delta Variable
     
     ;DX=INT(RND(1)*3-1) Results in a number of either -1, 0, +1
 
+@TryAgain
     jsr Rand
     and #%00000011          ; just give me the 2 least significant bits
     cmp #3                  ; is the end result 3?
-    bne @NotThree           ; No, then continue normally
-    sec                     ; Yes, then subtract one from value
-    sbc #1
-    sta /1
-@NotThree
+    beq @TryAgain           ; Yes, then try again
     sec
     sbc #1
     sta /1
@@ -547,8 +544,8 @@ Line1010
 
     ldy #0
     lda (POINTADDRESS),y
-;    ora Prog_XC
-    eor Prog_XC
+    ora Prog_XC
+;    eor Prog_XC
     sta (POINTADDRESS),y
 
     rts
