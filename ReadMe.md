@@ -34,6 +34,14 @@
 * Tutorial 033 : Overview of the VIC II Chip & BASIC Neptune Lander
 * Tutorial 034 : RetroGameDev Macro Coding Overview
 * Tutorial 035 : Neptune Lander Conversion To Machine Code
-* Tutorial 036 : Text Scroller 
+* Tutorial 036 : Text Scroller
+* Tutorial 037 : Community Game Development : Hunchback
+* Tutorial 038 : Reverse Engineering Myriad (VIC 20 Game)
+* Tutorial 039 : Cassette 50 Competition Game Development
+* Tutorial 040 : Reverse Engineering Jeff Minters GRIDRunner (C64)
+* Tutorial 041 : Reverse Engineering Jeff Minters TRAXX (VIC20)
+* Tutorial 042 : Lets Learn all Things BBC Micro'sh
+* Tutorial 043 : Reverse Engineering Dig Dug (C64)
+* Tutorial 044 : Game Development PETSCII Matrix (PET, VIC20, C64, C16, Plus4, C128)
 
-##### Updated 26th Dec 2019
+##### Updated 2nd Jun 2021
