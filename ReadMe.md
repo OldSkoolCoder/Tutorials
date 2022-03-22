@@ -27,18 +27,18 @@
 * Tutorial 027 : Creating Gauges for the Vertical and Horizontal Velocities.
 * Tutorial 028 : Melbourne House 64 Games Book Part Three
 * Tutorial 028 : Melbourne House 64 Games Book Part Four
-* Tutorial 029 : PET Frogger My First Machine Language Game For A Level 1983
-* Tutorial 030 : CIDOS Development Introduction Part One
-* Tutorial 032 : Commodore VIC & 64 Machine Code Monitor Development Part One
-* Tutorial 031 : OSKBasic Graphics Extension Kit.
-* Tutorial 033 : Overview of the VIC II Chip & BASIC Neptune Lander
+* [Tutorial 029 : PET Frogger My First Machine Language Game For A Level 1983](https://github.com/OldSkoolCoder/PET-Frogger)
+* [Tutorial 030 : CIDOS Development Introduction Part One](https://github.com/OldSkoolCoder/CIDOS)
+* [Tutorial 032 : Commodore VIC & 64 Machine Code Monitor Development Part One](https://github.com/OldSkoolCoder/OSKMon)
+* [Tutorial 031 : OSKBasic Graphics Extension Kit.](https://github.com/OldSkoolCoder/OSKBasic)
+* [Tutorial 033 : Overview of the VIC II Chip & BASIC Neptune Lander](https://github.com/OldSkoolCoder/NeptuneLander)
 * Tutorial 034 : RetroGameDev Macro Coding Overview
-* Tutorial 035 : Neptune Lander Conversion To Machine Code
-* Tutorial 036 : Text Scroller
+* [Tutorial 035 : Neptune Lander Conversion To Machine Code](https://github.com/OldSkoolCoder/NeptuneLander)
+* [Tutorial 036 : Text Scroller](https://github.com/OldSkoolCoder/TEXTScrollers)
 * Tutorial 037 : Community Game Development : Hunchback
 * Tutorial 038 : Reverse Engineering Myriad (VIC 20 Game)
-* Tutorial 039 : Cassette 50 Competition Game Development
-* Tutorial 040 : Reverse Engineering Jeff Minters GRIDRunner (C64)
+* Tutorial 039 : Cassette 50 Competition Game Development [Copy-Cat](https://github.com/OldSkoolCoder/Cassette50.C64.CopyCat) [Line Em Up](https://github.com/OldSkoolCoder/Cassette50.C64.LineEmUp) [SCIAmble](https://github.com/OldSkoolCoder/Cassette50.C64.SCIAMBLE)
+* [Tutorial 040 : Reverse Engineering Jeff Minters GRIDRunner (C64)](https://github.com/OldSkoolCoder/GridRunner-Original)
 * Tutorial 041 : Reverse Engineering Jeff Minters TRAXX (VIC20)
 * Tutorial 042 : Lets Learn all Things BBC Micro'sh
 * Tutorial 043 : Reverse Engineering Dig Dug (C64)
